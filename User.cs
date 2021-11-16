@@ -1,18 +1,18 @@
 ﻿using System;
+
 namespace studentmanagementsys
-
 {
-    public class User
-{
-    public string Username;
-    public string Name;
-    public int ID;
-
-    public User(string Username, String Name, int ID)
+    class User
     {
-        this.Username = Username;
-        this.Name = Name;
-        this.ID = ID;
+        public string Username;
+        public string Name;
+        public int ID;
+
+        public User(string Username, string name, int iD)
+        {
+            this.Username = Username;
+            this.Name = name;
+            this.ID = iD;
+        }
     }
-}
 }
