@@ -10,7 +10,7 @@ namespace studentmanagementsys
 
             User daniel = new User("Danieluser", "Daniel Stevens", 1);
             Console.WriteLine(daniel.Username);
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Woryhjgld!");
         }
     }
 }
